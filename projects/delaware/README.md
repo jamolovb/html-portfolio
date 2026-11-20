@@ -18,4 +18,6 @@ The November 12, 2025 extract had 17,697 rows. Requiring district, school, fixtu
 
 ## Run the Shiny example
 
-With R and the `shiny` package installed, run `Rscript -e 'shiny::runApp(".", launch.browser = TRUE)'` from this directory. The included CSV lets the example start without downloading the raw data.
+The map uses simplified polygons from the 2024 Census TIGER/Line unified school district boundaries supplied with the course project. Sixteen district names match the sampling extract. The other four reporting groups remain available in the selector.
+
+With R and the `shiny`, `sf`, and `leaflet` packages installed, run `Rscript -e 'shiny::runApp(".", launch.browser = TRUE)'` from this directory. The included CSV lets the example start without downloading the raw data.
